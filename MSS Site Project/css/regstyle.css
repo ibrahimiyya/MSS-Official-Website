@@ -1,0 +1,138 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Tahoma;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/*** Pre Regiatration page ***/
+.Membership_container {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+img {
+  height: 7rem;
+  width: 75%;
+  margin: 10% 0px 0px 0%;
+}
+a {
+  color: #155e00;
+  text-decoration: none;
+}
+a:hover {
+  color: #afc8a8;
+}
+/**** form page  ***/
+section {
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.steps {
+  height: 30px;
+  width: 50px;
+  background-color: #155e00;
+  margin: 10px 15px;
+}
+.stepChild {
+	display: none;
+  font-size: 18px;
+  background-color: #fff;
+  color: #155e00;
+  border: 1px solid #000;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.newStep {
+  display: block;
+  font-size: 18px;
+  background-color: #fff;
+  color: #155e00;
+  border: 1px solid #000;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.personal_detail {
+  display: none;
+}
+.parental_detail {
+  display: none;
+}
+.educational_detail {
+  display: none;
+}
+.personal_details {
+  display: block;
+}
+.parental_details {
+  display: block;
+}
+.educational_details {
+  display: block
+}
+.personalName {
+  font: 18px;
+  padding: 5px;
+  padding: 5px;
+}
+label {
+  color: #155e00;
+  font-size: 20px;
+  margin-left: 3px;
+}
+input {
+  height: 25px;
+  width: 70%;
+  border: 1px solid #808080;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.Next {
+  position: absolute;
+  right: 25%;
+  height: 35px;
+  width: 100px;
+  background-color: #155e00;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #f2f8fc;
+  border: 2px solid #afc8a8;
+}
+.Next1 {
+	display: none;
+}
+.submit {
+	display: none;
+}
+select {
+  margin-bottom: 15px;
+  margin: 5px;
+}
+.updates {
+  background-color: #efad8b;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #2b3d28d3;
+}
+@media screen and (min-width: 990px) {
+  img {
+    height: 7rem;
+    width: 35%;
+    margin: 5% 0px 0px 0%;
+  }
+}

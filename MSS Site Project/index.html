@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>MSS Quiz app</title>
+    </head>
+    <body>
+        <!-- This code is for the quiz app, it has the following section:
+         -- Preview or Setup section
+         -- Main QUIZ section
+         -- Result section
+         pls read through the code section below -->
+       <section class="setUp_container">
+        <!-- This is the SETUP Section comprising of:
+         -- Quiz Level
+         -- quiz Type
+         -- Number of question -->
+            <h3 class="greetiing">Welcome to MSS UCB Official quiz competittion</h3>
+        <form action="get">
+            <select name="levelSet" class="level_set" id="levelSet">
+                <!-- This SELECT is for the level whoch are:
+                 --beginner
+                 --intermidate &
+                 --andvance -->
+                 <!-- The class name is 'level_set' id is 'levelSet' -->
+                <option value="">Select qiuz Level</option>
+                <option value="">beginner</option>
+                <option value="">intermidate</option>
+                <option value="">advance</option>
+            </select><br>
+            <select name="typeSe0t" class="level_set" id="typeSet">
+                <!-- This SELECT is for the type of the Quiz, which are:
+                 --Islamic Studie
+                 --General Studie -->
+                <option value="">Select qiuz type</option>
+                <option value="">islamic studies</option>
+                <option value="">general studies</option>
+            </select><br>
+            <!-- This input is for the number of quetion the participant what to attempt to. The minimum is 10 and maximum is 50 question -->
+            <input type="number" min="10" max="50" name="nQSet" id="nQSet" class="no_of_q">
+            <!-- This button is for starting the quiz after all requirement is been set -->
+            <button class="start_quiz">Start</button>
+            <!-- Here is the end of the quiz -->
+        </form>
+        <!-- end of the section -->
+       </section>
+       <section>
+        <!-- This section is for the main quiz. It contain the following:
+         -- Question type
+         -- Question time
+         -- Main Question
+         -- Option
+         -- Progress number and total number  -->
+         <div class="type_timing">
+            <!-- This DIV is for the question type and timing -->
+            <p class="question_type">Type</p>
+            <p class="question_timing">5</p>
+        </div>
+        <div class="question_div">
+            <!-- thid DIV is for the main question comprises of
+             -- Q number
+             -- main Question paragraph -->
+            <p class="question_no">1</p>
+            <p class="main_question">Which of the following is among the rightly guided caliph?</p>
+            <!-- the below DIV help to center the main Question by using space between of justify content on the main DIV .
+             The paragraph do not appear on the page due to some property declared on it-->
+            <p class="hidden">.</p>
+         </div>
+         <form action="get">
+            <div class="option_div"><p class="optionLetter">A</p><p class="optionAnswer">Zahd bn Tabith</p></div>
+            <div class="option_div"><p class="optionLetter">B</p><p class="optionAnswer">Umar bn Thattab</p></div>
+            <div class="option_div"><p class="optionLetter">C</p><p class="optionAnswer">bn Majah</p></div>
+            <div class="option_div"><p class="optionLetter">D</p><p class="optionAnswer">Imam Buhari</p></div>
+         </form>
+       </section>
+    </body>
+ </html>
